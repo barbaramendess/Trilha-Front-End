@@ -1,0 +1,24 @@
+.box {
+    height: 10rem;
+    width: 20rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background-color: palegreen;
+    color: palevioletred;
+    border: 10px solid paleturquoise;
+    display: inline-block;
+    border-radius: 0.4rem;
+    position: static;
+}
+
+.boxes {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+box :nth-child(1) {
+    position: relative;
+    top: 0px;
+    left: 100px;
+}

@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+h1 {
+    color: #dcd4dc;
+    font-size: 9.6rem;
+    background-color: rgb(185, 128, 237);
+    font-weight: 900;
+
+}
+
+h1, h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    color: palevioletred;
+    font-size: 2.3rem;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.bg {
+    height: 60vh;
+    width: 100%;
+    background-color: paleturquoise;
+    background-image: url('https://static.wikia.nocookie.net/projectsekai/images/d/d7/Special_Off-Shot%21.png/revision/latest?cb=20231031085211');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+a {
+    font-size: xx-large;
+    color: palegreen;
+}
+
+a:visited {
+    color: pink;
+}
+
+a:hover {
+    color: palegoldenrod
+}
